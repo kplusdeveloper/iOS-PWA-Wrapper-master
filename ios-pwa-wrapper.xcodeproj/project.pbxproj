@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D504BEB1FA100E20019B279 /* ios-pwa-wrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-pwa-wrapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D504BEB1FA100E20019B279 /* Benefits App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Benefits App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D504BEE1FA100E20019B279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D504BF01FA100E20019B279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D504BF31FA100E20019B279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		2D504BEC1FA100E20019B279 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D504BEB1FA100E20019B279 /* ios-pwa-wrapper.app */,
+				2D504BEB1FA100E20019B279 /* Benefits App.app */,
 				2D504C021FA100E20019B279 /* ios-pwa-wrapperTests.xctest */,
 				2D504C0D1FA100E20019B279 /* ios-pwa-wrapperUITests.xctest */,
 			);
@@ -151,7 +151,7 @@
 			);
 			name = "ios-pwa-wrapper";
 			productName = "ios-pwa-wrapper";
-			productReference = 2D504BEB1FA100E20019B279 /* ios-pwa-wrapper.app */;
+			productReference = 2D504BEB1FA100E20019B279 /* Benefits App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D504C011FA100E20019B279 /* ios-pwa-wrapperTests */ = {
@@ -461,8 +461,8 @@
 				INFOPLIST_FILE = "ios-pwa-wrapper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "at.xtools.ios-pwa-wrapper";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benefitsapp.kplus;
+				PRODUCT_NAME = "Benefits App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -479,8 +479,8 @@
 				INFOPLIST_FILE = "ios-pwa-wrapper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "at.xtools.ios-pwa-wrapper";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.benefitsapp.kplus;
+				PRODUCT_NAME = "Benefits App";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
