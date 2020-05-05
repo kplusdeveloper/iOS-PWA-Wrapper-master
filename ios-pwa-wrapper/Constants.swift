@@ -3,15 +3,15 @@
 //  ios-pwa-wrapper
 //
 //  Created by Martin Kainzbauer on 29/10/2017.
-//  Copyright © 2017 Martin Kainzbauer. All rights reserved.
+//  Copyright Â© 2017 Martin Kainzbauer. All rights reserved.
 //
 
 import UIKit
 
 // Basic App-/WebView-configuration
-let appTitle = "iOS PWA Wrapper"
-let webAppUrl = URL(string: "https://www.leasingrechnen.at")
-let allowedOrigin = "leasingrechnen.at"
+let appTitle = "Benefits App"
+let webAppUrl = URL(string: "https://benefitsapp.kplus.com")
+let allowedOrigin = "benefitsapp.kplus.com"
 let menuButtonTitle = NSLocalizedString("menu", comment: "")
 let menuButtonJavascript = """
     $('.button-collapse').sideNav('show');
